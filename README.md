@@ -6,6 +6,11 @@ Vowel Counter Web App
 
 The main purspose for this project was is to test my JavaScript skills in creating simple yet useful and fun app.
 
+## Preview
+![Vowel Counter](./assets/previewOne.png)
+---
+![vowel Counter - Output](./assets/previewTwo.png)
+
 ## Getting Started
 
 ### Dependencies

@@ -11,7 +11,12 @@ html {
   background: linear-gradient(#333, #ccc);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
+}
+
+body {
+  overflow-y: hidden;
+  height: 100%;
 }
 
 a {
@@ -54,6 +59,9 @@ li {
 NAVIGATION BAR
 
 */
+nav {
+  height: 15%;
+}
 
 .nav__bar {
   background-color: rgba(240, 255, 255, 0.322);
@@ -106,7 +114,9 @@ NAVIGATION BAR
 MAIN
 
 */
-
+main {
+  height: 60%;
+}
 .project__header {
   color: #fff;
   text-align: center;
@@ -132,7 +142,7 @@ input {
   width: 100%;
   margin: 16px;
   padding: 4px;
-  color: #242424;
+  color: #fff;
   font-weight: 700;
   background-color: transparent;
   border-top: 0px;
@@ -187,11 +197,9 @@ FOOTER
 */
 
 footer {
-  position: sticky;
-  height: fit-content;
-  min-height: 10.7em;
   background-color: #242424;
   margin-bottom: 0 auto;
+  height: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
