@@ -10,6 +10,8 @@ The main purspose for this project was is to test my JavaScript skills in creati
 ![Vowel Counter](./assets/previewOne.png)
 ---
 ![vowel Counter - Output](./assets/previewTwo.png)
+---
+---
 
 ## Getting Started
 
